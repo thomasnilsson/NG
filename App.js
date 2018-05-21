@@ -8,12 +8,13 @@ import PlaceDetail from "./src/components/PlaceDetail/PlaceDetail";
 
 export default class App extends Component {
   state = {
-    places: []
+    places: [],
+    selectedPlace: null
   };
 
   placeAddedHandler = placeName => {
     let place = {
-      key: Math.random(),
+      key: Math.random() + "",
       name: placeName,
       image: {
         uri: "https://i.ytimg.com/vi/SfLV8hD7zX4/maxresdefault.jpg"
@@ -24,21 +25,39 @@ export default class App extends Component {
     });
   };
 
-  itemDeletedHandler = key => {
+  placeDeletedHandler = () => {
     this.setState({
-      places: this.state.places.filter(place => place.key !== key)
+      places: this.state.places.filter(place => place !== this.state.selectedPlace)
     });
+    this.modalClosedHandler()
+  };
+
+  modalClosedHandler = () => {
+    this.setState({
+      selectedPlace: null
+    });
+  };
+
+  itemSelectedHandler = place => {
+    this.setState({
+      selectedPlace: place
+    });
+    console.log(place);
   };
 
   render() {
     return (
       <View style={styles.parentContainer}>
-        <PlaceDetail placeName={}/>
+        <PlaceDetail
+          selectedPlace={this.state.selectedPlace}
+          onPlaceDeleted={this.placeDeletedHandler}
+          onModalClosed={this.modalClosedHandler}
+        />
         <Text style={styles.textBox}>Enter a place name</Text>
         <PlaceInput onPlaceAdded={this.placeAddedHandler} />
         <PlaceList
           places={this.state.places}
-          onItemDeleted={this.itemDeletedHandler}
+          onItemSelected={this.itemSelectedHandler}
         />
       </View>
     );
