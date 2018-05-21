@@ -1,0 +1,5 @@
+dependencies: \
+  /Users/thomasnilsson/Desktop/gps/NG/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegateAdapter.m \
+  /Users/thomasnilsson/Desktop/gps/NG/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegateAdapter.h \
+  /Users/thomasnilsson/Desktop/gps/NG/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputViewProtocol.h \
+  /Users/thomasnilsson/Desktop/gps/NG/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegate.h
