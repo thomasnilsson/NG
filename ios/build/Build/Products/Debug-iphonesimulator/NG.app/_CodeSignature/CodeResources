@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		MyZgomNQpi5QGQEAqtRzlO8+nic=
+		f6wEGycjyUKwGhJNA8Rgaua+fNA=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
@@ -63,7 +63,7 @@
 		</data>
 		<key>PlugIns/NGTests.xctest.dSYM/Contents/Resources/DWARF/NGTests</key>
 		<data>
-		RLkURAUcCXptXnKJKe9XT9F1Q6U=
+		PyHOql8J+9puScCjaLuCWi+jZsw=
 		</data>
 		<key>PlugIns/NGTests.xctest/Info.plist</key>
 		<data>
@@ -71,7 +71,7 @@
 		</data>
 		<key>PlugIns/NGTests.xctest/NGTests</key>
 		<data>
-		CEz/DrIxJKULI5HNiy6B8YihQnE=
+		aiIXUE5wnuhFYmS2DKJxL2TYHzo=
 		</data>
 		<key>PlugIns/NGTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -84,11 +84,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MyZgomNQpi5QGQEAqtRzlO8+nic=
+			f6wEGycjyUKwGhJNA8Rgaua+fNA=
 			</data>
 			<key>hash2</key>
 			<data>
-			C3zp1wi+8wRPEvdPs43kaKj4lYsTEsIBoR6a5sSEo3E=
+			20gSRVBaaF4gdqRSnEDNR7yOiDybbSA2RdIzhR9e9lo=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
@@ -207,11 +207,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RLkURAUcCXptXnKJKe9XT9F1Q6U=
+			PyHOql8J+9puScCjaLuCWi+jZsw=
 			</data>
 			<key>hash2</key>
 			<data>
-			tBSc6UWJOODiMC2knrkkscC9Pm+hRWEm0p77YvEgR5I=
+			6G/8edytIaiOgukWJFJkITinSv2xsH4RHyuRoLYD3KI=
 			</data>
 		</dict>
 		<key>PlugIns/NGTests.xctest/Info.plist</key>
@@ -229,11 +229,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CEz/DrIxJKULI5HNiy6B8YihQnE=
+			aiIXUE5wnuhFYmS2DKJxL2TYHzo=
 			</data>
 			<key>hash2</key>
 			<data>
-			mpcpTJxELnW63QW6Du67vZtwPzcyHFyF5OynVZfGeto=
+			RMRnHGsPNVNkbVJ0xwh8SFOWVZkUStj5wrdWH79O5a0=
 			</data>
 		</dict>
 		<key>PlugIns/NGTests.xctest/_CodeSignature/CodeResources</key>
