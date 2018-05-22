@@ -27,9 +27,11 @@ export default class App extends Component {
 
   placeDeletedHandler = () => {
     this.setState({
-      places: this.state.places.filter(place => place !== this.state.selectedPlace)
+      places: this.state.places.filter(
+        place => place !== this.state.selectedPlace
+      )
     });
-    this.modalClosedHandler()
+    this.modalClosedHandler();
   };
 
   modalClosedHandler = () => {
@@ -38,13 +40,14 @@ export default class App extends Component {
     });
   };
 
-  itemSelectedHandler = place => {
+  itemSelectedHandler = key => {
+    let place = this.state.places.find(p => p.key === key);
+
     this.setState({
       selectedPlace: place
     });
     console.log(place);
   };
-
   render() {
     return (
       <View style={styles.parentContainer}>

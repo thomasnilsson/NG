@@ -6,7 +6,6 @@ const placeDetail = props => {
   let modalContent = null;
 
   if (place) {
-    console.log(place.image);
     modalContent = (
       <View>
         <Image
